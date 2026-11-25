@@ -1,0 +1,8 @@
+skyfield==1.55
+jplephem==2.24
+sgp4==2.25
+# numpy 2.0.x has wheels only for Python 3.9-3.12; newer Pythons need a newer numpy.
+numpy==2.0.2; python_version < "3.13"
+numpy>=2.1; python_version >= "3.13"
+certifi==2026.11.20
+astronomy-engine==2.1.19
